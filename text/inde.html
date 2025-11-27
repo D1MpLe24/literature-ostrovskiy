@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текст для Презентации: А.Н. Островский</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Стиль для удобства чтения - темный фон, светлый текст, крупный шрифт */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1f2937; /* Dark Gray / Blue-Gray */
+            color: #f3f4f6; /* Light Gray */
+            line-height: 1.6;
+        }
+        .text-section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #4b5563; /* Darker separator */
+        }
+        .text-section:last-child {
+            border-bottom: none;
+        }
+        h1 {
+            font-size: 2.5rem; /* Очень крупный заголовок */
+            font-weight: 700;
+            color: #fcd34d; /* Yellow-400 для акцента */
+        }
+        h2 {
+            font-size: 1.75rem; /* Крупные подзаголовки */
+            font-weight: 700;
+            color: #93c5fd; /* Blue-300 для секций */
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem; /* Читабельный основной текст */
+            margin-bottom: 1rem;
+        }
+        .main-container {
+            max-width: 800px;
+        }
+        .bullet-point {
+            list-style: none;
+            padding-left: 0;
+        }
+        .bullet-point li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .bullet-point li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #fcd34d;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="p-8">
+    <div class="main-container mx-auto">
+        
+        <header class="text-center mb-10 text-section">
+            <h1 class="mb-2">Александр Николаевич Островский: Конспект Доклада</h1>
+            <p class="text-xl text-gray-400">Отец русского национального театра</p>
+        </header>
+
+        <!-- I. Детство и Юность -->
+        <section class="text-section">
+            <h2>I. Детство и Юность</h2>
+            <p><strong>Годы жизни:</strong> 1823–1886. Родился в Москве, в Замоскворечье.</p>
+            <p>Отец был судебным чиновником, что дало Островскому уникальную возможность наблюдать за жизнью и нравами купечества и мещанства с самых ранних лет. Именно этот быт, конфликты и нравы легли в основу его будущих пьес.</p>
+            <p class="italic text-sm text-gray-400 border-l-2 border-gray-600 pl-3">Обучался на юридическом факультете Московского университета, но бросил его, чтобы посвятить себя литературе.</p>
+        </section>
+
+        <!-- II. Начало Творчества -->
+        <section class="text-section">
+            <h2>II. Начало Творчества и Служба</h2>
+            <p>С 1843 по 1851 год Островский служил в Московском суде (Словестный и Коммерческий). Эта работа стала бесценным источником материала для изучения человеческой психологии и морали.</p>
+            <p><strong>1850 год: Триумф.</strong> Выход пьесы **«Свои люди — сочтёмся!»** (первоначально «Банкрот»). Пьеса имела оглушительный успех, но была запрещена Николаем I из-за остроты изображения купеческих нравов. Этот момент положил начало его профессиональной драматургической карьере.</p>
+        </section>
+
+        <!-- III. Зрелость и Основные Произведения -->
+        <section class="text-section">
+            <h2>III. Зрелость и Ключевые Пьесы</h2>
+            
+            <h3 class="text-xl font-bold mt-4 mb-3 text-blue-300">«Гроза» (1859)</h3>
+            <ul class="bullet-point">
+                <li>Трагедия о конфликте между свободной, чистой личностью (Катерина) и деспотичным, косным миром.</li>
+                <li>Кульминация темы "тёмного царства" – мира невежества, жестокости и лицемерия.</li>
+                <li>Образ Катерины как символа света и протеста в этом царстве.</li>
+            </ul>
+
+            <h3 class="text-xl font-bold mt-6 mb-3 text-blue-300">«Бесприданница» (1878)</h3>
+            <ul class="bullet-point">
+                <li>Социальная драма о трагической судьбе женщины в обществе, где всё решают деньги.</li>
+                <li>Главная героиня Лариса Огудалова становится жертвой цинизма богатых купцов (Кнуров, Вожеватов, Паратов).</li>
+                <li>Лариса — это «дорогая вещь», которую нужно купить или которой можно просто завладеть. Её убийство символизирует окончательное поражение красоты и души перед капиталом.</li>
+            </ul>
+        </section>
+        
+        <!-- IV. Ключевые Цитаты и Заключение -->
+        <section class="text-section">
+            <h2>IV. Ключевые Цитаты и Наследие</h2>
+            
+            <h3 class="text-xl font-bold mt-4 mb-3 text-blue-300">Цитаты из «Бесприданницы»</h3>
+            <ul class="bullet-point">
+                <li>"Ведь она ничья, вот беда-то." (Кнуров)</li>
+                <li>"У меня денег много, а Лариса одна." (Паратов)</li>
+                <li>"Я любви ищу, а не золота." (Лариса)</li>
+            </ul>
+
+            <h3 class="text-xl font-bold mt-6 mb-3 text-blue-300">Заключение</h3>
+            <p>За свою жизнь А.Н. Островский написал **47 оригинальных пьес**. Он не просто писал драмы, но и создал русский национальный театр в том виде, в котором мы его знаем. Его творчество охватило и сатиру, и драму, и трагедию, отразив все стороны русского общества XIX века.</p>
+        </section>
+        
+    </div>
+</body>
+</html>
