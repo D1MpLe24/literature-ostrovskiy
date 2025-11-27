@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('paper-texture.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+}
+
+/* Контейнер */
+.container-biography {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffffee;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+}
+
+/* Заголовки */
+.header-title {
+    font-family: 'Playfair Display', serif;
+    color: #2a6f8b;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Карточки */
+.card {
+    background-color: #fcfcfc;
+    border-left: 6px solid #8c5828;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Анимации */
+.fade-soft {
+    opacity: 0;
+    animation: softFade 1.2s ease forwards;
+}
+
+.fade-up {
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+}
+
+@keyframes softFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(25px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Цитаты */
+.quote {
+    border-left: 4px solid #c48a28;
+    padding: 15px;
+    background: #faf9f5;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+/* Персонажи */
+.char-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #7b7b7b;
+    border-radius: 10px;
+}
+
+/* Акцент */
+.focus-block {
+    border-left-color: #b03636;
+    background: #fff8f6;
+}
+
+/* Адаптация под телефон */
+@media (max-width: 600px) {
+    body {
+        background-size: contain;
+    }
+}
